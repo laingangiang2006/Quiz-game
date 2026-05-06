@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Quiz</h1>
+            <p v-if="current < questions.length">Your achievement: {{ score }}</p>
+        </header>
+
+        <section class="question" v-if="current < questions.length">
+          <h3>Q{{ current + 1 }}: {{ currentQ.question }}</h3>
+          <button 
+          v-for="option in currentQ.options" 
+          :key="option" 
+          :disabled="currentQ.answered" 
+          :class="{correct: currentQ.answered && option.charAt(0) === currentQ.answer, wrong: currentQ.answered && option.charAt(0) === currentQ.selectedAnswer && currentQ.selectedAnswer !== currentQ.answer
+}"
+          v-on:click="selectAnswer(currentQ, option)"> {{ option }} </button>
+          <button v-if="currentQ.answered" v-on:click="nextQ">Next →</button>
+        </section>
+        <section v-if="current < questions.length">
+          <div class="q_nav">
+            <button 
+            class="q_dot" 
+            :class="{ active: current === i }" 
+            v-for="(question, i) in questions" 
+            :key="i" 
+            v-on:click="current = i">{{ i + 1 }}</button>
+          </div>
+        </section>
+        <section 
+        v-else 
+        style="padding: 20px; display: flex; flex-direction: column; align-items: center;">
+          <div>You've completed the quiz!</div>
+          <div>Your current score: {{ score }}.</div>
+        </section>
+    </div>
+
+    <footer>
+      <p>Made by <b>Lại Ngân Giang</b> from Vietnam 🇻🇳</p>
+    </footer>
+    
+    <script src="https://unpkg.com/vue@2"></script>
+    <script src="lib/script.js"></script>
+  </body>
+</html>
