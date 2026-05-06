@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My to-do list</title>
+    <link rel="stylesheet" href="lib/style.css">
+  </head>
+
+  <body> 
+    <header>
+      <div>
+        <b>My to-do list</b>
+      </div>
+      <div class="nav-button">
+      <button><a href="folder.html">Folder</a></button>
+      <button><a href="index.html">Menu</a></button>
+      </div>
+    </header>
+
+    <section>
+      <div class="Adding-Task">
+        <div>
+          <select id="folder-select"></select>
+        </div>
+        <div>
+          <input type="text" id="input-box" placeholder="Add your task">
+          <button onclick="addTask()">Add</button>
+        </div>
+      </div>
+      <ul id="list-container"></ul>
+    </section>
+
+    <script src="lib/script.js"></script>
+
+    <footer>
+      <p>Made by <b>Lại Ngân Giang</b> from Vietnam 🇻🇳</p>
+    </footer>
+  </body>
+</html>
