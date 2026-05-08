@@ -16,9 +16,10 @@ A simple task manager with folder support.
 ▶️ [Try on Plunker](https://plnkr.co/edit/UsM4dpbQH7dHZY6E)
 
 ---
+
 ### Random number generator
 
-▶️ [CodePen](https://codepen.io/laingangiang2006/pen/RNorBRw)
+▶️ [Try on Plunker](https://plnkr.co/plunk/pCkobiolI4EXOz6c)
 
 ---
 
