@@ -18,7 +18,7 @@ A simple task manager with folder support.
 ---
 ### Random number generator
 
-▶️ [CodePen](https://codepen.io/laingangiang2006/pen/RNorBRw
+▶️ [CodePen](https://codepen.io/laingangiang2006/pen/RNorBRw)
 
 ---
 
