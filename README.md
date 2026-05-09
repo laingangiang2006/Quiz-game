@@ -31,4 +31,5 @@ A simple task manager with folder support.
 ---
 
 ## About
+
 These are personal side projects created for learning and fun. Feel free to explore the code!
