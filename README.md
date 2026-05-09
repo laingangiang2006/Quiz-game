@@ -6,7 +6,6 @@ Small projects I built for fun.
 ## Projects
 
 ### Quiz
-A quiz game to test your knowledge.
 
 ▶️ [Try on Plunker](https://plnkr.co/plunk/KpcoMbESsiqVY229)
 
