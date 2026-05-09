@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5f7fa;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 12px;
+}
+
+.myButton {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4f8ef7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 32px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    margin-bottom: 16px;
+}
+
+.myButton:hover {
+    background-color: #2d6fd4;
+}
+
+.myButton:active {
+    transform: scale(0.97);
+}
+
+.myLabel {
+    font-size: 48px;
+    font-weight: 700;
+    color: #4f8ef7;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: white;
+    border: 2px solid #dde3f0;
+    border-radius: 12px;
+    margin: 4px;
+}
