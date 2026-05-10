@@ -4,31 +4,31 @@ These are projects I built for learning and fun.
 
 ## Projects
 
-### Quiz
+### 1. Quiz
 
 ▶️ [Try on Plunker](https://plnkr.co/plunk/KpcoMbESsiqVY229)
 
 ---
 
-### To-do List
+### 2. To-do List
 
 ▶️ [Try on Plunker](https://plnkr.co/edit/UsM4dpbQH7dHZY6E)
 
 ---
 
-### Random number generator
+### 3. Random number generator
 
 ▶️ [Try on Plunker](https://plnkr.co/plunk/pCkobiolI4EXOz6c)
 
 ---
 
-### Counter
+### 4. Counter
 
 ▶️ [Try on Plunker](https://plnkr.co/plunk/w187hxvvIvQADxYb)
 
 ---
 
-### Github User Finder
+### 5. Github User Finder
 
 
 ▶️ [Try on Plunker](https://plnkr.co/plunk/T39hc6OtQv1A1eoz)
