@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background: #fdf6f9;
+  color: #5a2d4c;
+}
+
+header {
+  background: linear-gradient(135deg, #ffd6e0 0%, #f9c2d2 100%);
+  color: #7d2a4e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+  border-bottom: 1px solid rgba(200, 100, 130, 0.15);
+}
+
+.nav-button {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.55);
+  color: #a0405f;
+  border: 1.5px solid rgba(180, 80, 110, 0.35);
+  border-radius: 8px;
+  padding: 7px 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  backdrop-filter: blur(4px);
+}
+
+button:hover {
+  background: rgba(255, 107, 134, 0.18);
+  border-color: #e07090;
+  color: #7d2a4e;
+}
+
+button:active {
+  background: #c7e8ff;
+  border-color: #a0c8e8;
+  color: #2a608a;
+  transform: scale(0.97);
+}
+
+section {
+  background: linear-gradient(160deg, #ede4f5 0%, #f5e0ec 100%);
+  padding: 28px 24px;
+}
+
+.Adding-Task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+ul li {
+  list-style: none;
+  user-select: all;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(200, 100, 130, 0.18);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: #6e2646;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+
+ul li:hover {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 8px rgba(180, 80, 110, 0.1);
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.task-folder {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.task-folder div {
+  width: calc(33.33% - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+footer {
+  background: linear-gradient(135deg, #ffd6e0 0%, #f9c2d2 100%);
+  color: #a04060;
+  display: flex;
+  justify-content: center;
+  padding: 14px 24px;
+  border-top: 1px solid rgba(200, 100, 130, 0.15);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
