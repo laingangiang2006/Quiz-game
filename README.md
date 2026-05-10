@@ -1,12 +1,12 @@
 # My playground
 
-## About
+## 1. About
 
 These are personal side projects created for learning and fun. Feel free to explore the code!
 
 ---
 
-## Projects
+## 2. Projects
 
 ### 1. Quiz
 
